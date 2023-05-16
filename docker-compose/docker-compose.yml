@@ -1,0 +1,24 @@
+version: '3' 
+services:
+  db:
+    image: mysql:latest
+    networks:
+      - commonNet
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=MyPassword
+      - MYSQL_DATABASE=libapp
+    volumes:
+      - ./libdump.sql:/docker-entrypoint-initdb.d/libdump.sql
+  web:
+    image: tomcat:latest
+    networks:
+      - commonNet
+    volumes:
+      - ./LibraryApp.war:/usr/local/tomcat/webapps/LibraryApp.war
+    ports:
+      - 8080:8080
+networks:
+  commonNet:
+    driver: bridge   
