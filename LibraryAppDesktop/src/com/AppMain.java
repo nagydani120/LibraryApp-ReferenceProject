@@ -80,7 +80,7 @@ import com.windows.registerwindow.AdminRegisterWindow;
 *					I tried to document and comment what i did in classes and sometimes i used 
  *					version control system (Github) for practicing.
  *					
- *					Total hours spent with this app: 70+hours 
+ *					Total hours spent with this app: 80+hours 
  *					(i measured time with Learning Timer, that is an app made by me) 
  */
 //@formatter:on

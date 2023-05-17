@@ -1,5 +1,6 @@
 package com.windows.borrow_window.panels;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 
 import javax.swing.AbstractListModel;
@@ -25,7 +26,7 @@ public class ReturnPanel extends JPanel {
 	}
 
 	private void initialize() {
-		this.setLayout(null);
+		this.setLayout(new BorderLayout());
 		this.setBackground(new Color(181, 131, 90));
 		
 		JScrollPane scrollPane = new JScrollPane();
@@ -34,14 +35,12 @@ public class ReturnPanel extends JPanel {
 		list.setBackground(new Color(205, 171, 143));
 
 		scrollPane.setViewportView(list);
-		scrollPane.setBounds(30, 12, 433, 147);
-
 		
 		JButton returnBookButton = new ReturnButton("Return Book", list, person, this);
 		
 		
-		this.add(returnBookButton);
-		this.add(scrollPane);
+		this.add(returnBookButton,BorderLayout.SOUTH);
+		this.add(scrollPane,BorderLayout.CENTER);
 	}
 
 	/**

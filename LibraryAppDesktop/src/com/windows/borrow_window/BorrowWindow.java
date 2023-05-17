@@ -48,9 +48,8 @@ public class BorrowWindow  {
 		frame = new JFrame();
 		frame.getContentPane()
 				.setBackground(new Color(181, 131, 90));
-		frame.setBounds(100, 100, 499, 300);
-
-		
+		frame.setBounds(100, 100, 550, 400);
+		frame.setResizable(false);
 		// adding a custom window closing command
 		frame.addWindowListener(new WindowAdapter() {
 			@Override
