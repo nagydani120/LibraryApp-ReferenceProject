@@ -4,7 +4,7 @@ Reference projects made by me
  
  			The applications characterization:
  			
- 			#DESKTOP:
+ # DESKTOP:
  			The desktop application is created for managing (registering, deleting) the users, books
  			and handle the borrows.	If the Library application runs for the first time, the Administrator Register window
  			appears, the database and tables are created in MySQL, and if there is a successful registration
@@ -13,7 +13,7 @@ Reference projects made by me
  			If we log in, the select menu appears (Books or Users).
  			In these two menus the library worker can handle the members, books, borrows, returns, etc... 	 
  
- 			#WEB SITE:
+ # WEB SITE:
  			If the library worker registers a member, the member gets a randomly generated password 
  			via email. With this password and with the specified email address can the member login.
        			On web site the member can check the actually borrowed books and deadlines, there is a possibility to
@@ -21,7 +21,7 @@ Reference projects made by me
  			limit the books deadline renewal (for example 3 renewal/ month for any book... or there should be a charge ..etc)
  		      On web site the member can use the ForgotPassword function to generate and send a new password to an  email address
  
- 	       #REAL-LIFE EXAMPLE:
+ # REAL-LIFE EXAMPLE:
    		The person comes to the library, the library worker fills in the persons data,
    		registers and a pass is sent to the email address that just the member can know. 
    		(there is no function to change to a custom password yet)
@@ -74,7 +74,7 @@ Reference projects made by me
  					(I measured time with Learning Timer, which is an app made by me) 
 
 
-#DOCKER INITIALIZE
+# DOCKER INITIALIZE
 The docker-compose folder is created for initializing the Apache Tomcat and the MySQL server (there are some pre-filled data, the server is initialized by a mysql dump file).
 
 To run these servers just navigate to this folder and run via terminal "docker compose up" and wait till it gets initialized.
