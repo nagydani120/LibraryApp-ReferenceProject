@@ -1,8 +1,8 @@
-package servlets;
+package com.servlets;
 
 import java.io.IOException;
 
-import com.BookDatabaseDataTransfer;
+import com.database.BookDatabaseDataTransfer;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;

@@ -7,7 +7,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import com.EntityDatabaseDataTransfer;
+import com.database.EntityDatabaseDataTransfer;
 import com.entities.Person;
 import com.safety.password.PasswordCheck;
 

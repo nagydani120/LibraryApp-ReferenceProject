@@ -31,7 +31,7 @@
 		<description></description>
 		<display-name>ValidateLogin</display-name>
 		<servlet-name>ValidateLogin</servlet-name>
-		<servlet-class>servlets.ValidateLogin</servlet-class>
+		<servlet-class>com.servlets.ValidateLogin</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ValidateLogin</servlet-name>
@@ -43,7 +43,7 @@
 		<description></description>
 		<display-name>ForgotPassword</display-name>
 		<servlet-name>ForgotPassword</servlet-name>
-		<servlet-class>servlets.ForgotPassword</servlet-class>
+		<servlet-class>com.servlets.ForgotPassword</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ForgotPassword</servlet-name>
@@ -55,7 +55,7 @@
 		<description></description>
 		<display-name>ExtendDeadline</display-name>
 		<servlet-name>ExtendDeadline</servlet-name>
-		<servlet-class>servlets.ExtendDeadline</servlet-class>
+		<servlet-class>com.servlets.ExtendDeadline</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ExtendDeadline</servlet-name>

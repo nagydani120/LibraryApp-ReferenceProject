@@ -1,4 +1,4 @@
-package com;
+package com.database;
 
 
 import java.sql.Connection;
@@ -13,6 +13,7 @@ import java.util.TreeMap;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import com.connection.MySqlConnection;
 import com.entities.Book;
 import com.entities.Genre;
 import com.entities.Person;

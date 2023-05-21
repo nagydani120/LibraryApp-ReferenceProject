@@ -1,7 +1,7 @@
-package servlets;
+package com.servlets;
 import java.io.IOException;
 
-import com.EntityDatabaseDataTransfer;
+import com.database.EntityDatabaseDataTransfer;
 import com.validators.FilledUserDataValidator;
 
 import jakarta.servlet.ServletException;

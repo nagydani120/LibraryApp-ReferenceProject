@@ -1,4 +1,4 @@
-package servlets;
+package com.servlets;
 import java.io.IOException;
 
 import jakarta.servlet.ServletException;

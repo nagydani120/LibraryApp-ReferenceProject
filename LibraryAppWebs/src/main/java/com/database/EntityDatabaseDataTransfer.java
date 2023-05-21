@@ -1,4 +1,4 @@
-package com;
+package com.database;
 
 
 import java.sql.Connection;
@@ -11,6 +11,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.TreeMap;
 
+import com.UnableToDeleteException;
+import com.connection.MySqlConnection;
 import com.entities.Admin;
 import com.entities.Book;
 import com.entities.Person;

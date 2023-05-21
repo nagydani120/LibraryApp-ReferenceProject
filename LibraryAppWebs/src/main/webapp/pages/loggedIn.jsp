@@ -1,5 +1,5 @@
-<%@page import="com.BookDatabaseDataTransfer"%>
-<%@page import="com.EntityDatabaseDataTransfer"%>
+<%@page import="com.database.BookDatabaseDataTransfer"%>
+<%@page import="com.database.EntityDatabaseDataTransfer"%>
 <%@page import="com.entities.*"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.Iterator"%>
@@ -21,17 +21,17 @@
 	<%
 	String email =(String) request.getSession().getAttribute("email_address");
 
-		com.EntityDatabaseDataTransfer personTrans = new com.EntityDatabaseDataTransfer();
+			com.database.EntityDatabaseDataTransfer personTrans = new com.database.EntityDatabaseDataTransfer();
 
-		Person p = personTrans.getPerson(email);
+			Person p = personTrans.getPerson(email);
 
-		Integer personId = p.getId();
-		String firstName = p.getFirstName();
-		String lastName = p.getLastName();
+			Integer personId = p.getId();
+			String firstName = p.getFirstName();
+			String lastName = p.getLastName();
 
-		BookDatabaseDataTransfer bookTrans = new BookDatabaseDataTransfer();
-		ArrayList<Book> books = bookTrans.getPersonsBook(personId);
-		Iterator<Book> iterator = books.iterator();
+			BookDatabaseDataTransfer bookTrans = new BookDatabaseDataTransfer();
+			ArrayList<Book> books = bookTrans.getPersonsBook(personId);
+			Iterator<Book> iterator = books.iterator();
 	%>
 	<br>
 
