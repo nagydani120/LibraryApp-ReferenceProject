@@ -59,8 +59,8 @@ Reference projects made by me
           
         -> JDBC for connection to MySQL database
           			
-         -> Servlets for communication with the website, AJAX to send and receive on web site 			
-  
+        -> Servlets for communication with the website, AJAX to send and receive on web site 	
+	 
  	-> Apache Tomcat server
  	
 	-> little HTML, CSS, Javascript, and JSP for creating the website
