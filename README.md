@@ -3,9 +3,23 @@ Reference projects made by me
 			        			 Library App 1.0
  
  			The applications characterization:
- # DEMO VIDEO
+ # DEMO VIDEO AND DEMO ACCOUNTS
  https://vimeo.com/829100232?share=copy
-		
+
+There is a pre-registered account for LibraryApp(Desktop login)
+
+**Username: administrator
+Password: Administrator1**
+
+And pre-registered account for login on website:
+
+**Email: nagydani120@gmail.com
+Password:ot88i@m+nu** 
+
+*Note: These demo accounts works only if application is runned with prepared docker compose, 
+       that initializes the MySQL and Apache Tomcat server. 
+       
+       Instructions: docker-compose folder -> readme file* 
 		
  # DESKTOP:
  The desktop application is created for managing (registering, deleting) the users, books
