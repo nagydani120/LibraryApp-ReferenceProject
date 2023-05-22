@@ -4,7 +4,8 @@ Reference projects made by me
  
  			The applications characterization:
  # DEMO VIDEO AND DEMO ACCOUNTS
- https://vimeo.com/829100232?share=copy
+ 
+**Demo video: https://vimeo.com/829100232?share=copy **
 
 There is a pre-registered account for LibraryApp(Desktop login)
 
