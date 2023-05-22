@@ -3,7 +3,10 @@ Reference projects made by me
 			        			 Library App 1.0
  
  			The applications characterization:
- 			
+ # DEMO VIDEO
+ https://vimeo.com/829100232?share=copy
+		
+		
  # DESKTOP:
  The desktop application is created for managing (registering, deleting) the users, books
  and handle the borrows.If the Library application runs for the first time, the Administrator Register window
@@ -29,6 +32,7 @@ Reference projects made by me
  The member goes home and uses the website to check for a deadline or extend the deadline. 
  If the member comes back with the book, the library worker registers the return. 
  
+ # ABOUT DEVELOPING
  The application is created by me as a reference project and for
  practicing Java and English. I used first time some functions, so
  there was a lot of help and guidance from web (ChatGPT,
