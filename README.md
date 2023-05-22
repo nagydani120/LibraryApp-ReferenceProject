@@ -8,12 +8,12 @@ Reference projects made by me
 
 There is a pre-registered account for LibraryApp(Desktop login)
 
-**Username: administrator
+**Username: administrator <br>
 Password: Administrator1**
 
 And pre-registered account for login on website:
 
-**Email: nagydani120@gmail.com
+**Email: nagydani120@gmail.com <br>
 Password:ot88i@m+nu** 
 
 *Note: These demo accounts works only if application is runned with prepared docker compose, 
