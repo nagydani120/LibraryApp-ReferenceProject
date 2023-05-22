@@ -1,8 +1,7 @@
 # ReferenceProjects
-Reference projects made by me
 			        			 Library App 1.0
  
- 			The applications characterization:
+ 						The applications characterization:
  # DEMO VIDEO AND DEMO ACCOUNTS
  
 **Demo video: https://vimeo.com/829100232?share=copy**
